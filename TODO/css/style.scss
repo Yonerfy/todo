@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+
+  main {
+    width: 500px;
+    height: 500px;
+    h1 {
+      margin-bottom: 10px;
+      span {
+        color: blue;
+        font-weight: bolder;
+      }
+    }
+    #new-task {
+      width: 250px;
+    }
+  }
+}
+
+.finish-task {
+  text-decoration: line-through blue;
+}
+
+ul {
+  li {
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-end;
+    input[type="button"] {
+      cursor: pointer;
+      border: none;
+      height: 20px;
+      width: 20px;
+      background-image: url("img/delete.svg");
+      background-repeat: no-repeat;
+      background-size: 15px;
+      background-position: center;
+      background-color: white;
+      color: transparent;
+    }
+    input[type="text"],
+    input[type="text"]:focus {
+      border: none;
+      background-color: white;
+    }
+    input[type="checkbox"] {
+      cursor: pointer;
+      align-self: center;
+      margin-right: 5px;
+    }
+  }
+}

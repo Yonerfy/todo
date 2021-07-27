@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body main {
+  width: 500px;
+  height: 500px;
+}
+
+body main h1 {
+  margin-bottom: 10px;
+}
+
+body main h1 span {
+  color: blue;
+  font-weight: bolder;
+}
+
+body main #new-task {
+  width: 250px;
+}
+
+.finish-task {
+  -webkit-text-decoration: line-through blue;
+          text-decoration: line-through blue;
+}
+
+ul li {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+ul li input[type="button"] {
+  cursor: pointer;
+  border: none;
+  height: 20px;
+  width: 20px;
+  background-image: url("img/delete.svg");
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position: center;
+  background-color: white;
+  color: transparent;
+}
+
+ul li input[type="text"],
+ul li input[type="text"]:focus {
+  border: none;
+  background-color: white;
+}
+
+ul li input[type="checkbox"] {
+  cursor: pointer;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-right: 5px;
+}
+/*# sourceMappingURL=style.css.map */
